@@ -1,0 +1,31 @@
+/*CARDS*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.cards{
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cards img{
+    width: 100%;
+    height: auto;
+}
+
+.cardsContent{
+    background-color: $fondo;
+    padding: 15px;
+}
+
+.cardsContent h3{
+    color: $color-principal;
+}
+
+
+
+

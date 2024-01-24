@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.excursion{
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.excursion img{
+    width: 100%;
+    height: auto;
+}
+
+.excursionContent{
+    background-color: $fondo;
+    padding: 15px;
+}
+
+.excursionContent h3{
+    padding-top: 20px;
+    color: $color-principal;
+}

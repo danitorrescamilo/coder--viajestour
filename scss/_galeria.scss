@@ -1,0 +1,24 @@
+/*GALERÍA*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+.galeria{
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+.galeriaOpacity a:hover,
+a:active {
+  opacity: 0.8; /* m
+  ouse hover opacidad 50% */
+}
