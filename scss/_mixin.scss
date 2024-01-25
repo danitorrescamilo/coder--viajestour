@@ -1,0 +1,52 @@
+
+
+@mixin team ($borde, $image, $ancho, $alto, $radius){
+  border: 5px solid $borde;
+  background: $image;
+  width: $ancho;
+  height: $alto;
+  margin: auto;
+  border-radius: $radius;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+.equipo {
+  border-radius: 8px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    // height: auto;
+  }
+}
+
+//IMAGEN TEAM
+.team-1{
+  @include team (blue, url(../images/card-baja1.jpg), 200px, 200px, 100px);
+}
+
+.team-2{
+  @include team (green, url(../images/card-baja3.jpg), 200px, 200px, 50px);
+}
+
+.team-3{
+  @include team (red, url(../images/card-baja4.jpg), 200px, 200px, 100px);
+}
+
+.team-4{
+  @include team (yellow, url(../images/card-baja1.jpg), 200px, 200px, 50px);
+}
+
+.equipoContent {
+  padding: 15px;
+
+  h3 {
+    color: $color-principal;
+  }
+}

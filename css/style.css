@@ -1,13 +1,71 @@
 @charset "UTF-8";
-/*VARIABLES*/
-/*BASE*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+.equipo {
+  border-radius: 8px;
+  overflow: hidden;
+}
+.equipo img {
+  width: 100%;
+}
+
+.team-1 {
+  border: 5px solid blue;
+  background: url(../images/card-baja1.jpg);
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 100px;
+}
+
+.team-2 {
+  border: 5px solid green;
+  background: url(../images/card-baja3.jpg);
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.team-3 {
+  border: 5px solid red;
+  background: url(../images/card-baja4.jpg);
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 100px;
+}
+
+.team-4 {
+  border: 5px solid yellow;
+  background: url(../images/card-baja1.jpg);
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.equipoContent {
+  padding: 15px;
+}
+.equipoContent h3 {
+  color: rgb(13, 110, 253);
+}
+
+/*BASE*/
 * {
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   font-family: "Monsterrat", sans-serif;
   color: #333;
 }
@@ -59,6 +117,7 @@ p {
 .slider p {
   font-size: 1.5rem;
   text-align: center;
+  padding-bottom: 25px;
 }
 
 /*SEPARATA*/
@@ -70,8 +129,8 @@ p {
 .separata h2 {
   text-transform: uppercase;
   text-align: center;
-  line-height: 3;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .separata h3 {
   font-family: "Montserrat", sans-serif;
@@ -163,7 +222,6 @@ p {
   border-radius: 8px;
   overflow: hidden;
 }
-
 .galeria img {
   width: 100%;
   height: auto;
@@ -171,10 +229,12 @@ p {
 
 .galeriaOpacity a:hover,
 a:active {
-  opacity: 0.8; /* m
-ouse hover opacidad 50% */
+  opacity: 0.8;
+  /* m
+  ouse hover opacidad 50% */
 }
 
+/*EXCURSION*/
 * {
   margin: 0px;
   padding: 0px;
@@ -186,7 +246,6 @@ ouse hover opacidad 50% */
   border-radius: 8px;
   overflow: hidden;
 }
-
 .excursion img {
   width: 100%;
   height: auto;
@@ -196,7 +255,6 @@ ouse hover opacidad 50% */
   background-color: rgb(246, 245, 244);
   padding: 15px;
 }
-
 .excursionContent h3 {
   padding-top: 20px;
   color: rgb(13, 110, 253);
@@ -214,7 +272,6 @@ ouse hover opacidad 50% */
   border-radius: 8px;
   overflow: hidden;
 }
-
 .cards img {
   width: 100%;
   height: auto;
@@ -224,7 +281,6 @@ ouse hover opacidad 50% */
   background-color: rgb(246, 245, 244);
   padding: 15px;
 }
-
 .cardsContent h3 {
   color: rgb(13, 110, 253);
 }

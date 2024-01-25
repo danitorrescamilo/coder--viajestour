@@ -1,24 +1,26 @@
 /*GALERÍA*/
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat";
 }
 
-.galeria{
-    border-radius: 8px;
-    overflow: hidden;
-}
+.galeria {
+  border-radius: 8px;
+  overflow: hidden;
 
-.galeria img{
+  img {
     width: 100%;
     height: auto;
+  }
 }
 
 .galeriaOpacity a:hover,
 a:active {
-  opacity: 0.8; /* m
+  opacity: 0.8;
+
+  /* m
   ouse hover opacidad 50% */
 }
