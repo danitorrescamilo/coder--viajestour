@@ -28,19 +28,19 @@
 
 //IMAGEN TEAM
 .team-1{
-  @include team (blue, url(../images/card-baja1.jpg), 200px, 200px, 100px);
+  @include team (blue, url(../images/team-1.jpg), 200px, 200px, 100px);
 }
 
 .team-2{
-  @include team (green, url(../images/card-baja3.jpg), 200px, 200px, 50px);
+  @include team (green, url(../images/team-2.jpg), 200px, 200px, 50px);
 }
 
 .team-3{
-  @include team (red, url(../images/card-baja4.jpg), 200px, 200px, 100px);
+  @include team (red, url(../images/team-3.jpg), 200px, 200px, 100px);
 }
 
 .team-4{
-  @include team (yellow, url(../images/card-baja1.jpg), 200px, 200px, 50px);
+  @include team (yellow, url(../images/team-4.jpg), 200px, 200px, 50px);
 }
 
 .equipoContent {
