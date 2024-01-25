@@ -296,7 +296,7 @@ footer {
 }
 
 .footer-box {
-  width: 33%;
+  width: 30%;
   margin: auto;
   height: 60px;
   float: left;
@@ -312,7 +312,7 @@ footer {
 .social a {
   float: right;
   color: #fff;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   padding: 6px;
   margin: 5px;
